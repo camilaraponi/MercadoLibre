@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mercado liebre - registro</title>
+</head>
+<body>
+<fieldset>
+<form action="/" method="GET">
+ <label for="nombre"></label>
+ <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido"/>
+ 
+ <label for="usuario"></label>
+ <input type="text" name="usuario" id="usuario" placeholder="nombre de usuario"/>
+
+ <label for="fecha-nacimineto">fecha de nacimiento</label>
+ <input type="date" name="fecha" id="fecha" required/>
+
+ <label for="direccion"></label>
+ <input type="text" name="direccion" id="direccion" placeholder="direccion" required/>
+ </fieldset>
+ 
+ <fieldset>
+ <label for="vendedor">vendedor</label>
+ <input type="radio" name="vendedor" id="perfil" value="vendedor" /> 
+<label for="comprador">comprador</label> 
+ <input type="radio" name="comprador" id="perfil" value="comprador" />
+</fieldset>
+
+ <fieldset>
+    <h4>categorias</h4>
+ <label for="electro">electro</label>
+ <input type="checkbox">
+ <label for="moda">moda</label>
+ <input type="checkbox">
+ <label for="hogar">hogar</label>
+ <input type="checkbox" >
+ <label for="juguetería">jugueteria
+ </label>
+ <input type="checkbox">
+ <label for="vida sana">vida sana</label>
+ <input type="checkbox">
+ </fieldset>
+
+ <fieldset>
+ <label for="avatar">foto de perfil</label>
+ <input type="file">  
+ </fieldset>
+
+ <fieldset>
+  <label for="contraseña">contraseña</label>
+  <input type="password" name="contraseña" id="contraseña">
+  <label for="conf contraseña">repetir contraseña</label>
+  <input type="password" name="conf contraseña" id="conf contraseña" required> 
+ </fieldset>
+ <fieldset>
+    <button type="submit">enviar</button>
+    <button type="reset">reset</button>
+ </fieldset>
+ 
+</form>
+</body>
+</html>

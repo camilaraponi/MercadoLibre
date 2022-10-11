@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main section article i{
+    position: relative;
+    font-size: 13px;
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -15px;
+    }
+.text{
+    font-size: 14px;
+    font-family: "Roboto";
+}
+.body{
+    font-size: 12px;
+    font-family: 'Roboto';
+    background: #ebebeb;
+    color: #666;
+}
+
+.banner{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background: #EAC926;
+    padding: 20px;
+    
+}
+
+.titulo1{
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento.descuento2{
+    font-size: 16px;
+    color:green
+}
+.icon{
+padding-left: 7px;
+margin-top: 5px;
+color:blue;
+}
+.search{
+    padding-left:5px;
+}
+.dollar{
+    padding-left: 20px;
+    padding-right: 3px;
+
+}
+nav{
+    margin-left: 10px;
+
+}
+.card {
+    padding-left: 2px;
+}
+.login{
+    padding-left: 2px;
+}
+.shop{
+    padding-left: 2px;
+}
+.burguer-menu{
+    
+    color: white;
+    background: #1259c3;
+    display: block;
+    max-width: 50px;
+    text-align: center;
+    font-size: 17px;
+    padding: 15px 0;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+    
+.ofertas{
+    font-size: 24px;
+    
+}
+.descuento{
+    font-size: 16px;
+    color: green;
+    
+}
+
+
+main{
+    text-align: center;
+    width: 100%;
+    margin-left: 16;
+    margin-right: 16px;
+   
+    
+}
+/*.icono-envio{
+    background-color: white;
+    border-radius: 
+    50%;
+    border: 1px solid #26bb58;
+    margin-bottom:5px;
+    padding:3px;
+    flex-wrap: wrap;
+}*/
+article{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+ 
+.cuadro-vendido{
+     border-top: solid 1px #ebebeb;
+     margin: 15px;
+     padding: 10px;
+     flex-wrap: wrap;
+    }
+
+    .articulo{
+    margin: 10px;
+    text-align: left ;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.shield {
+font-size: 2em;
+text-align: center;
+margin-bottom: 10px;
+flex-wrap: wrap
+}
+.gift{
+    font-size: 2em;
+text-align: center;
+margin-bottom: 10px;
+flex-wrap: wrap
+}
+
+.keycard{
+    font-size: 3.5em;
+text-align: center;
+margin: 10px;
+flex-wrap: wrap;
+margin-top: 7px;
+}
+
+.copy {
+    margin-top: 10px;
+}
+
+footer {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+
+/* ////////////////////////media queries//////////////////////*/
+ @media (max-width: 361px){
+    .descripcion{
+        display:none;
+    }
+    .articulo:hover{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+    .footer i:hover{
+        color: red;
+    }
+ }
+ 
+ @media (max-width: 800px){
+    .footer{
+        display:block;
+        flex-direction: row;
+        ;
+        
+    }
+    .articulo{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+ }
+
+ /* /////////////animaciones////////////// */
+
+.articulo:hover .descripcion {
+ display: block;
+}
+/*///login///*/
+.submit:hover{
+    color: #0022AA
+
+}
